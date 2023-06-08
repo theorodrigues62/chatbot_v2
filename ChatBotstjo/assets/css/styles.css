@@ -1,0 +1,58 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    background-color: aquamarine;
+}
+h1{
+    color : black
+}
+.btLink{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 8px;
+    transition: .3s;
+}
+.btLink:hover{
+    background: #6d071a;
+}
+.form-question{
+    padding: 10px;
+    margin: 50px 10px;
+}
+.form-button{
+    padding: 10px;
+}
+.answer{
+    text-align: right;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    max-width: 90%;
+    margin: 20px;
+    align-self: flex-end;
+    background: #b4b4bc;
+    color: white;
+}
+.question{
+    text-align: left;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    max-width: 90%;
+    margin: 20px;
+    align-self: flex-start;
+    background: #6d071a;
+    color: white;
+}
+.test{
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+.message{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
